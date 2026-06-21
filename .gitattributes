@@ -1,0 +1,7 @@
+# Force Git to handle the Gradle wrapper JAR as a binary file
+*.jar binary
+*.png binary
+
+# Ensure gradlew stays with unix line endings and gradlew.bat stays with windows line endings
+gradlew text eol=lf
+gradlew.bat text eol=crlf
